@@ -1,0 +1,36 @@
+{
+    "user": [
+        {
+            "id": 1,
+            "name": "张三",
+            "mobile": "133333333333"
+        }, {
+            "id": 2,
+            "name": "李四",
+            "mobile": "133333333333"
+        },{
+            "id": 3,
+            "name": "王五",
+            "mobile": "133333333333"
+        },
+    ],
+    "menu": [
+        {
+            "id": 1,
+            "label": "仪表盘",
+            "icon": "fa-tachometer-alt",
+            "parent": null,
+            "router": "/dashboard",
+            "visible": 1,
+            "order": 1
+        }, {
+            "id": 2,
+            "label": "门店管理",
+            "icon": "fa-warehouse",
+            "parent": null,
+            "router": "",
+            "visible": 1,
+            "order": 1
+        }
+    ]
+}
